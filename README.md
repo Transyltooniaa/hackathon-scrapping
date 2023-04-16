@@ -7,7 +7,8 @@ The IMDb Web Scraping Project provides a Python-based solution to scrape movie d
 * Extracts movie information, including titles, release dates, genres, ratings, and more.
 * Provides customizable options to scrape specific types of movie data.
 * Stores scraped data in a structured format for easy analysis and integration with other projects.
-* Includes documentation and examples to help you get started quicKLY
+* Includes documentation and examples to help you get started quickly.
+* Provides graphs to anlayze data easily.
 
 ## Getting Started
 
@@ -17,7 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 git clone https://github.com/Transyltooniaa/hackathon-scrapping.git
 ```
 
-### Prerequisites
+## Prerequisites
 
 #### Modules
 
@@ -107,9 +108,14 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* Python: The project is primarily built using Python programming language, which provides powerful tools and libraries for web scraping.
+* Beautiful Soup: A popular Python library for web scraping that makes it easy to extract data from HTML and XML documents.
+* Requests: A Python library for making HTTP requests to web servers, which is commonly used in combination with Beautiful Soup to fetch web pages for scraping.
+* HTML and XML: The project relies on HTML and XML markup languages, which are standard markup languages for creating web pages and exchanging data on the web.
+* IDE or Text Editor: The project may be developed using an Integrated Development Environment (IDE) like PyCharm, VSCode, or Sublime Text, or a text editor like Notepad++ or Atom, depending on the developer's preference.
+* Git: A widely used version control system for tracking changes in the project's source code and collaborating with other developers.
+* GitHub: A popular web-based hosting service for Git repositories, used for storing and sharing the project's source code.
+* Command Line: The project may be run and managed using the command line interface (CLI), which is a text-based interface for interacting with the project's code and running scripts.
 
 ## Contributing
 
