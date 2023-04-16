@@ -2,6 +2,7 @@ import imdb
 import pandas as pd
 from tabulate import tabulate
 import pyttsx3
+import questionary
 
 engine = pyttsx3.init()
 engine.setProperty('rate', 195)
@@ -46,7 +47,12 @@ class IMDbMovieSearchEngine:
         self.sort_inp = sort_inp.lower()
         engine.say("Please enter the sorting order you want to search for (asscending or descending)")
         engine.runAndWait()
-        order = input("Enter asc or desc: ")
+        
+        order = questionary.select(
+        "\nDo you want to see the detail in ascending or descending order?",
+        choices=["asc", "desc"]
+            ).ask()
+        
         self.order = order.lower()
 
     def generate_url(self):
