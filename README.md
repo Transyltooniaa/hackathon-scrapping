@@ -52,15 +52,15 @@ pip install requests
 ```
 * pandas
 ```
-pip install requests
+pip install pandas
 ```
 * tabulate 
 ```
-pip install requests
+pip install tabulate
 ```
 * matplotlib
 ```
-pip install requests
+pip install matplotlib
 ```
 * numpy
 ```
