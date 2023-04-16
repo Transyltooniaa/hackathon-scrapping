@@ -8,6 +8,7 @@ import numpy as np
 import seaborn as sns
 import time
 import pyttsx3
+import questionary
 
 # Initialize the text-to-speech engine
 engine = pyttsx3.init()
@@ -117,18 +118,29 @@ class IMDbScraper:
 imdb_scraper = IMDbScraper(new.genre_url)
 # Call the create_table method to generate and print the table
 print(imdb_scraper.create_table())
-b = get_choice("Do you want to see the details for any movie? (Press 1 for yes, 0 for no): ")
+
+engine.say("Do you want to see the details for any movie?")
+engine.runAndWait()
+b = questionary.select(
+    "Do you want to see the details for any movie?",
+    choices=["Yes", "No"]
+).ask()
+
 time.sleep(1)
-if b == '1':
+if b == 'Yes':
     import movie_search_main
     print("\nDo you want to add the movie in your watchlist?")
-    print("Press 1 for yes and 0 for no")
     engine.say("Do you want to add the movie in your watchlist?")
-    engine.say("Press 1 for yes and 0 for no")
-    engine.say("Enter your choice here: ")
+    engine.say("Select Yes or No")
     engine.runAndWait()
-    c=int(input("\nEnter your choice here: "))
-    if c==1:
+
+    c = questionary.select(
+    "Do you want to see the details for any movie?",
+    choices=["Yes", "No"]
+).ask()
+    
+    
+    if c=="Yes":
         def check():
             with open('watchlist.txt') as f:
                 datafile = f.readlines()
