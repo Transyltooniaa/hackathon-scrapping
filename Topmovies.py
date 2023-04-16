@@ -3,30 +3,29 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from tabulate import tabulate
 import pyttsx3
+import questionary
 
 engine = pyttsx3.init()
 engine.setProperty('rate', 195)
 engine.setProperty('volume', 1.5)
 
 
-print("\nHow would you like to sort the list by:")
+
 engine.say("How would you like to sort the list by:")
-print("1. By IMDB Rating")
-engine.say("1. By IMDB Rating")
-print("2. By Release Date")
-engine.say("2. By Release Date")
-print("3. By Number of Votes")
-engine.say("3. By Number of Votes")
 engine.runAndWait()
 
-engine.say("Please enter your choice here")
-engine.runAndWait()
-choice = int(input("\nEnter your choice here: "))
-if choice == 1:
+choice = questionary.select(
+        "How would you like to sort the list by:",
+        choices=["1. By IMDB Rating", "2. By Release Date","3. By Number of Votes"]
+    ).ask()
+
+
+
+if choice == "1. By IMDB Rating":
     edit_url = "?sort=ir,desc&mode=simple&page=1"
-elif choice == 2:
+elif choice == "2. By Release Date":
     edit_url = "?sort=us,desc&mode=simple&page=1"
-elif choice == 3:
+elif choice == "3. By Number of Votes":
     edit_url = "?sort=nv,desc&mode=simple&page=1"
     
 # Get the HTML from the URL
