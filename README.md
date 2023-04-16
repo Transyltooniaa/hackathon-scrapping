@@ -93,6 +93,10 @@ pip install IMDbPY
 ```
 pip install pretty-html-table
 ```
+* questionary
+``` 
+pip install questionary
+```
 
 ### Break down into end to end tests
 
