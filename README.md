@@ -47,7 +47,7 @@ Before you can deploy and use the IMDb web scraper project, please make sure you
 By ensuring that you have the above prerequisites in place, you will be well-prepared to deploy and use the IMDb web scraper project for your web scraping needs.
 
 
-### Installation
+### INSTALLATION
 
 A step by step series of examples that tell you how to get a development env running
 
@@ -97,7 +97,7 @@ pip install pretty-html-table
 ``` 
 pip install questionary
 ```
-## Built With
+## BUILT WITH
 
 * Python: The project is primarily built using Python programming language, which provides powerful tools and libraries for web scraping.
 * Beautiful Soup: A popular Python library for web scraping that makes it easy to extract data from HTML and XML documents.
@@ -108,17 +108,17 @@ pip install questionary
 * GitHub: A popular web-based hosting service for Git repositories, used for storing and sharing the project's source code.
 * Command Line: The project may be run and managed using the command line interface (CLI), which is a text-based interface for interacting with the project's code and running scripts.
 
-## Contributing
+## CONTRIBUTING
 
 We welcome contributions to the Beautiful Soup project! If you have any suggestions, bug reports, or feature requests, please open an issue on GitHub or submit a pull request. We appreciate your feedback and collaboration in making this project even better!
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
+## VERSIONING
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-## Authors
+## AUTHORS
 
 * **Krish Dave** - *co-founder* - [KrishDave1](https://github.com/KrishDave1)
 * **Ajitesh Kumar Singh** - *co-founder* - [Transyltooniaa](https://github.com/Transyltooniaa)
@@ -127,11 +127,11 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
+## LICENSE
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+## ACKNOWLEDGEMENTS
 * GeeksForGeeks
 * Stack Overflow
 * ChatGPT
