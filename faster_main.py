@@ -73,6 +73,7 @@ if b == 'Yes':
     import movie_search_main
     print("\nDo you want to add the movie in your watchlist?")
     engine.say("Do you want to add the movie in your watchlist?")
+    engine.runAndWait()
     c = questionary.select(
         "Choose an option:",
         choices=["Yes", "No"]
@@ -94,6 +95,14 @@ if b == 'Yes':
             engine.runAndWait()
         fptr.close()
 
-print("\nThank you for using the IMDB scraper! ")
-engine.say("Thank you for using the IMDB scraper! Have a nice day! see you soon!")
-engine.runAndWait()
+        print("\nThank you for using the IMDB scraper!")
+        engine.say("Thank you for using the IMDB scraper!. You can find the details of the movie you searched for in the folder. Have a nice day! see you soon!")
+        engine.runAndWait()
+        exit(1)
+
+else:
+    print("\nThank you for using the IMDB scraper!")
+    engine.say("Thank you for using the IMDB scraper! Have a nice day! see you soon! ")
+    engine.runAndWait()
+    exit(1)
+
