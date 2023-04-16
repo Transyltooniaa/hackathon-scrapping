@@ -137,7 +137,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Krish Dave** - *co-founder* - [KrishDave1](https://github.com/KrishDave1)
+* **Ajitesh Kumar Singh** - *co-founder* - [Transyltooniaa](https://github.com/Transyltooniaa)
+
+
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
