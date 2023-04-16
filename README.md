@@ -97,6 +97,13 @@ pip install pretty-html-table
 ``` 
 pip install questionary
 ```
+
+## EXECUTION
+Enter the command wriiten below to execute the program on command line terminal
+``` 
+python3 faster_main.py
+```
+
 ## BUILT WITH
 
 * Python: The project is primarily built using Python programming language, which provides powerful tools and libraries for web scraping.
