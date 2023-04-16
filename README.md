@@ -122,6 +122,8 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
+We welcome contributions to the Beautiful Soup project! If you have any suggestions, bug reports, or feature requests, please open an issue on GitHub or submit a pull request. We appreciate your feedback and collaboration in making this project even better!
+
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
