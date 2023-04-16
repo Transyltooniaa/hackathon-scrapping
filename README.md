@@ -97,19 +97,6 @@ pip install pretty-html-table
 ``` 
 pip install questionary
 ```
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 * Python: The project is primarily built using Python programming language, which provides powerful tools and libraries for web scraping.
@@ -145,6 +132,10 @@ See also the list of [contributors](https://github.com/your/project/contributors
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
+* GeeksForGeeks
+* Stack Overflow
+* ChatGPT
+* Abhinav Kumar
 
 * Hat tip to anyone whose code was used
 * Inspiration
