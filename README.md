@@ -10,6 +10,17 @@ The IMDb Web Scraping Project provides a Python-based solution to scrape movie d
 * Includes documentation and examples to help you get started quickly.
 * Provides graphs to anlayze data easily.
 
+## DESCRIPTION
+The application provides the following functionalities:
+
+* Movie search: Users can search for movies by title, genre, or any other relevant criteria. The application uses web scraping with BeautifulSoup to fetch movie data from IMDB's website and displays it to the user.
+
+* Movie details: Users can view detailed information about a particular movie, including its title, genre, release year, ratings, and other relevant information. This information will be available to the user in html as well as pdf format.
+
+* User-friendly GUI: The application has a basic graphical user interface (GUI) built using the Tkinter library, which provides a simple and intuitive way for users to interact with the application.
+
+* Data visualization: The application also provides basic data visualization using Matplotlib, allowing users to view graphical representations of movie ratings and other relevant data.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
