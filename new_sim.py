@@ -104,7 +104,7 @@ class IMDbScraper:
         df_graph = df_graph.sort_values(by='Rating', ascending=False)
         sns.set_style("darkgrid")
         plt.figure(figsize=(10, 10))
-        plt.title("Top 10 Movies by Rating")
+        plt.title("Top 50 Movies by Rating")
         plt.xlabel("Rating")
         plt.ylabel("Title")
         plt.xticks(np.arange(0, 50, step=1))
