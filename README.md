@@ -2,6 +2,13 @@
 
 The IMDb Web Scraping Project provides a Python-based solution to scrape movie data from IMDb. It utilizes web scraping techniques to extract information from IMDb's website and stores it in a structured format for further analysis or integration with other projects. The project includes a set of scripts that allow you to scrape different types of movie data, such as top-rated movies, most popular movies, upcoming movies, and more.
 
+## FEATURES
+* Scrapes movie data from IMDb using Python web scraping techniques.
+* Extracts movie information, including titles, release dates, genres, ratings, and more.
+* Provides customizable options to scrape specific types of movie data.
+* Stores scraped data in a structured format for easy analysis and integration with other projects.
+* Includes documentation and examples to help you get started quicKLY
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
