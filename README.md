@@ -21,7 +21,7 @@ The application provides the following functionalities:
 
 * Data visualization: The application also provides basic data visualization using Matplotlib, allowing users to view graphical representations of movie ratings and other relevant data.
 
-## Getting Started
+## GETTING STARTED
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
@@ -34,7 +34,7 @@ Before you can deploy and use the IMDb web scraper project, please make sure you
 
 * Python: The project is implemented in Python and requires Python to be installed on your machine. You can download and install Python from the official Python website (https://www.python.org/).
 
-* Beautiful Soup and Requests libraries: The project relies on the Beautiful Soup and Requests libraries for web scraping. You can install these libraries using pip (see intalling section for more details)
+* Beautiful Soup and Requests libraries: The project relies on the Beautiful Soup and Requests libraries for web scraping. You can install these libraries using pip (see installing section for more details)
 
 * Web browser and web driver: Depending on your use case, you may need a web browser and a web driver. If you plan to scrape data from a web page that requires HTML to load, you may need to use Beautiful Soup. You can download and install the appropriate web driver for your web browser from the official websites, such as ChromeDriver (https://sites.google.com/a/chromium.org/chromedriver/downloads) for Chrome, GeckoDriver (https://github.com/mozilla/geckodriver/releases) for Firefox, or Microsoft Edge WebDriver (https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) for Microsoft Edge.
 
@@ -47,7 +47,7 @@ Before you can deploy and use the IMDb web scraper project, please make sure you
 By ensuring that you have the above prerequisites in place, you will be well-prepared to deploy and use the IMDb web scraper project for your web scraping needs.
 
 
-### Installing
+### Installation
 
 A step by step series of examples that tell you how to get a development env running
 
@@ -93,8 +93,6 @@ pip install IMDbPY
 ```
 pip install pretty-html-table
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
