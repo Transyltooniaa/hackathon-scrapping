@@ -94,10 +94,6 @@ pip install IMDbPY
 pip install pretty-html-table
 ```
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
 ### Break down into end to end tests
 
 Explain what these tests test and why
