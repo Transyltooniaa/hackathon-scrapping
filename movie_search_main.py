@@ -87,29 +87,31 @@ def generate_movie_info_html(imdb_id):
     with open('movie_info.html', 'w', encoding='utf-8') as file:
         file.write('<html>\n')
         file.write('<head>\n')
-        file.write('<style>\n')
-        file.write('table {border-collapse: collapse; width: 100%;}\n')
-        file.write('th, td {border: 1px solid black; padding: 8px; text-align: left;}\n')
-        file.write('th {background-color: #f2f2f2;}\n')
-        file.write('</style>\n')
+        file.write('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">\n')
         file.write('</head>\n')
         file.write('<body>\n')
-        file.write('<h1>{}</h1>\n'.format(movie_info['Title']))
-        file.write('<table>\n')
+        file.write('<div class="container mt-5">\n')
+        file.write('<h1 class="text-center mb-4">{}</h1>\n'.format(movie_info['Title']))
+        file.write('<table class="table table-bordered table-striped table-hover mt-4">\n')
         for key, value in movie_info.items():
             file.write('<tr>\n')
-            file.write('<th>{}</th>\n'.format(key))
+            file.write('<th scope="row" class="text-uppercase">{}</th>\n'.format(key))
             if(key == 'Poster'):
-                file.write('<td><img src="{}" alt="Poster" width="300" height="400"></td>\n'.format(value))
+                file.write('<td><img src="{}" alt="Poster" class="img-fluid rounded"></td>\n'.format(value))
             else:
                 file.write('<td>{}</td>\n'.format(value))
-                file.write('</tr>\n')
+            file.write('</tr>\n')
         file.write('</table>\n')
+        file.write('</div>\n')
+        file.write('<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>\n')
+        file.write('<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>\n')
+        file.write('<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>\n')
         file.write('</body>\n')
         file.write('</html>\n')
 
-    # Open HTML file in a web browser
-    webbrowser.open('movie_info.html')
+        # Open HTML file in a web browser
+        webbrowser.open('movie_info.html')
+
 
 
 # Example usage
