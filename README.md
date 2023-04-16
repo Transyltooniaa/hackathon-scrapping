@@ -18,11 +18,9 @@ These instructions will get you a copy of the project up and running on your loc
 git clone https://github.com/Transyltooniaa/hackathon-scrapping.git
 ```
 
-## Prerequisites
+## PREREQUISITES
 
 #### Modules
-
-
 * bs4
 ```
 pip install bs4 
