@@ -2,7 +2,7 @@ from imdb import IMDb
 import pandas as pd
 import pyttsx3
 from tabulate import tabulate
-
+import questionary
 
 engine = pyttsx3.init()
 engine.setProperty('rate', 195)
@@ -111,7 +111,6 @@ def generate_movie_info_html(imdb_id):
 
         # Open HTML file in a web browser
         webbrowser.open('movie_info.html')
-
 
 
 # Example usage
