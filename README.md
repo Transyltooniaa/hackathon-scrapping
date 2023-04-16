@@ -1,4 +1,4 @@
-# IMDB WEB SCRAPPER
+# IMDB SEARCH ENGINE
 
 The IMDb Web Scraping Project provides a Python-based solution to scrape movie data from IMDb. It utilizes web scraping techniques to extract information from IMDb's website and stores it in a structured format for further analysis or integration with other projects. The project includes a set of scripts that allow you to scrape different types of movie data, such as top-rated movies, most popular movies, upcoming movies, and more.
 
