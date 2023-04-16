@@ -19,7 +19,21 @@ git clone https://github.com/Transyltooniaa/hackathon-scrapping.git
 ```
 
 ## PREREQUISITES
+Before you can deploy and use the IMDb web scraper project, please make sure you have the following prerequisites in place:
 
+* Python: The project is implemented in Python and requires Python to be installed on your machine. You can download and install Python from the official Python website (https://www.python.org/).
+
+* Beautiful Soup and Requests libraries: The project relies on the Beautiful Soup and Requests libraries for web scraping. You can install these libraries using pip (see intalling section for more details)
+
+* Web browser and web driver: Depending on your use case, you may need a web browser and a web driver. If you plan to scrape data from a web page that requires JavaScript to load, you may need to use a web driver, such as Selenium, along with Beautiful Soup. You can download and install the appropriate web driver for your web browser from the official websites, such as ChromeDriver (https://sites.google.com/a/chromium.org/chromedriver/downloads) for Chrome, GeckoDriver (https://github.com/mozilla/geckodriver/releases) for Firefox, or Microsoft Edge WebDriver (https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) for Microsoft Edge.
+
+* IMDb website access: The project is designed to scrape data from the IMDb website (https://www.imdb.com/). Make sure you have access to the IMDb website and comply with their terms of use, privacy policy, and robots.txt file. Respect their rules and regulations while using their data.
+
+* Basic programming skills: The project requires basic programming skills in Python, including understanding of Python syntax, data structures, and file operations. If you are new to Python, it's recommended to familiarize yourself with Python programming concepts before using the IMDb web scraper project.
+
+* A basic idea of other modules used. Even if you are new to them . It is quite easy to understand them. List of modules can be found below (modules section)
+
+By ensuring that you have the above prerequisites in place, you will be well-prepared to deploy and use the IMDb web scraper project for your web scraping needs.
 
 
 ### Installing
