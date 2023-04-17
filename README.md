@@ -102,6 +102,8 @@ pip install questionary
 Enter the command wriiten below to execute the program on command line terminal
 ``` 
 cd hackathon-scrapping
+```
+```
 python3 faster_main.py
 ```
 
