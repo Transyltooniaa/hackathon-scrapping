@@ -97,9 +97,9 @@ pip install pretty-html-table
 ``` 
 pip install questionary
 ```
-* html2pdf
+* pyhtml2pdf
 ```
-pip install html2pdf
+pip install pyhtml2pdf
 ```
 
 ## EXECUTION
