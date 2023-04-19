@@ -97,6 +97,10 @@ pip install pretty-html-table
 ``` 
 pip install questionary
 ```
+* html2pdf
+```
+pip install html2pdf
+```
 
 ## EXECUTION
 Enter the command wriiten below to execute the program on command line terminal
