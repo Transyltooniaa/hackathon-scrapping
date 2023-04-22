@@ -99,10 +99,19 @@ if b == 'Yes':
         engine.say("Thank you for using the IMDB scraper!. You can find the details of the movie you searched for in the folder. Have a nice day! see you soon!")
         engine.runAndWait()
         exit(1)
+    
+    else:
+        print("\nThank you for using the IMDB scraper!")
+        engine.say("Thank you for using the IMDB scraper! Have a nice day! see you soon! ")
+        engine.runAndWait()
+        exit(1)
 
 else:
     print("\nThank you for using the IMDB scraper!")
     engine.say("Thank you for using the IMDB scraper! Have a nice day! see you soon! ")
     engine.runAndWait()
     exit(1)
+
+
+
 
