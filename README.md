@@ -149,5 +149,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * GeeksForGeeks
 * Stack Overflow
 * ChatGPT
-* Abhinav Kumar
+* [Abhinav Kumar](https://github.com/Abhinav-Kumar012)
 * Seniors
